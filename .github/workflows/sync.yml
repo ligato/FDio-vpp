@@ -18,6 +18,7 @@ jobs:
         ref: master
         path: vpp
     - name: Check repos
+      run: |
         pwd
         env | sort
         echo "Checking repos.."

@@ -18,6 +18,7 @@ jobs:
     - name: Checkout upstream
       uses: actions/checkout@v2
       with:
+        repository: FDio/vpp
         ref: master
         path: vpp
     - name: Check repos
